@@ -3,3 +3,4 @@
                       Есть встроенный прокси(если нужен) для работы нужно создать файл .env:                                                                                              (TELEGRAM_BOT_TOKEN = "Токен бота" TEMP_DIR = "temp" # Прокси настройки PROXY_IP=ip PROXY_PORT=port PROXY_LOGIN=login PROXY_PASSWORD=password) 
                       Также для бота нужен будет ffmpeg на диске C:
                           https://www.gyan.dev/ffmpeg/builds/
+                            Связь со мной lordtwink.ru
