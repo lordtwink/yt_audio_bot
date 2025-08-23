@@ -4,11 +4,10 @@ import os
 import shutil
 from config import TEMP_DIR, PROXY_URL
 
-# Указываем папку с ffmpeg.exe и ffprobe.exe
+
 FFMPEG_PATH = r"C:\ffmpeg\bin"
 
 def download_audio_sync(query: str) -> str:
-    """Синхронная функция для скачивания аудио"""
     if not os.path.exists(TEMP_DIR):
         os.makedirs(TEMP_DIR)
 
@@ -43,7 +42,7 @@ def download_audio_sync(query: str) -> str:
         raise e
 
 def clean_temp_sync():
-    """Синхронная функция для очистки временных файлов"""
     if os.path.exists(TEMP_DIR):
         shutil.rmtree(TEMP_DIR)
         os.makedirs(TEMP_DIR)
+
